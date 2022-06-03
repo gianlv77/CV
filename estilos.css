@@ -1,7 +1,13 @@
+body{
+    background-color: #417597;
+}
+
+
 .retrato {
     width: 150px;
     height: 150px;
     border-radius: 1rem;
+    margin-top: 5em;
 }
 
 .myButton {
@@ -20,6 +26,7 @@
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
     border: 2px solid rgb(28, 110, 164);
     display: inline-block;
+    margin-top: 3%;
 }
 
 .myButton:hover {

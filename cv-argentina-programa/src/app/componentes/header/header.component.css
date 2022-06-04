@@ -1,0 +1,16 @@
+#aplogo{
+    height: 50px;
+    width: 90px;
+}
+
+#btnlogin{
+    margin-bottom: 30px;
+}
+
+#btnlogin:hover {
+    background: #1C6EA4;
+}
+
+#btnlogin:active {
+    background: #144E75;
+}

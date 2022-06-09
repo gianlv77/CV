@@ -1,9 +1,9 @@
-#aplogo{
+#aplogo {
     height: 50px;
     width: 90px;
 }
 
-#btnlogin{
+#btnlogin {
     margin-bottom: 30px;
 }
 
@@ -13,4 +13,14 @@
 
 #btnlogin:active {
     background: #144E75;
+}
+
+.banner{
+    border-style: dotted;
+}
+
+.img-fluid {
+    margin-left: 2%;
+    height: auto;
+    width: 95%;
 }

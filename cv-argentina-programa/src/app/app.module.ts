@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +12,14 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { HeaderComponent } from './componentes/header/header.component';
 import { ExperienciaLaboralComponent } from './componentes/experiencia-laboral/experiencia-laboral.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './componentes/home/home.component';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+
+]
 
 @NgModule({
   declarations: [
@@ -24,11 +32,13 @@ import { LoginComponent } from './componentes/login/login.component';
     ProyectosComponent,
     HeaderComponent,
     ExperienciaLaboralComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

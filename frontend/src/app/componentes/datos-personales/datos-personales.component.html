@@ -1,0 +1,16 @@
+<div class="container" id="titulo">
+    <div class="row">
+        <div class="col-8" *ngFor="let dato of personaList">
+            <h1>{{dato.fullName}}</h1>
+            <h2>{{dato.aboutMe}}</h2>
+            <p>{{dato.age}} <br> {{dato.localidad}} <br> {{dato.ubication}} <br>
+                <a href="mailto: {{dato.mail}}" target="_top"><button class="myButton">Contactame
+                    </button></a>
+            </p>
+        </div>
+        <div class="col-4"><img src="\assets\img\20161127_112443.png" alt="yo" class="retrato">
+        </div>
+
+
+    </div>
+</div>

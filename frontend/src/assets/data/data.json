@@ -1,0 +1,29 @@
+{
+    "Persona": [
+        {
+            "fullName": "Gianfranco Leonel Viola",
+            "age": "24 Años",
+            "aboutMe": "Programador full stack Jr.",
+            "mail": "gianfrancoviola98@gmail.com",
+            "localidad": "El palomar, Morón",
+            "ubication": "Buenos Aires (Argentina) "
+        }
+    ],
+    "Estudios": [
+        {
+            "career": "ARGENTINA PROGRAMA",
+            "institucion": "Programa Argentina Programa",
+            "time": "2021 - 2022"
+        },
+        {
+            "career": "Entrenador Deportivo en Tenis",
+            "institucion": "ISDe(Instituto Superior de Deportes",
+            "time": "2019 - 2020"
+        },
+        {
+            "career": "Técnico en Electronica",
+            "institucion": "E.E.S.T. N°8 - Morón",
+            "time": "2010 - 2016"
+        }
+    ]
+}
